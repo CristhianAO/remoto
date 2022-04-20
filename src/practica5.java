@@ -7,21 +7,21 @@ public class practica5 {
 		// TODO Auto-generated method stub
 		Scanner sn= new Scanner(System.in);
 		Scanner sc = new Scanner(System.in);
-		ArrayList<String> datosUsuario = new ArrayList<String>();
+		Estudiante estudiantes = new Estudiante();
 		
 		
 			System.out.println("Introduce nombre para estudiante");
-			datosUsuario.add(sc.nextLine());
+			estudiantes.setNombre(sc.nextLine());
 			System.out.println("Introduce apellido para estudiante");
-			datosUsuario.add(sc.nextLine());
+			estudiantes.setApellido(sc.nextLine());
 			System.out.println("Introduce fecha nacimiento para estudiante");
-			datosUsuario.add(sc.nextLine());
+			estudiantes.setFechaNac(sc.nextLine());
 			System.out.println("Introduce dni para estudiante");
-			datosUsuario.add(sc.nextLine());
+			estudiantes.setDni(sc.nextLine());
 			System.out.println("Introduce estudios previos para estudiante");
-			datosUsuario.add(sc.nextLine());
+			estudiantes.setEstudiosPrevios(sc.nextLine());
 			System.out.println("introduzca telefono");
-			datosUsuario.add(sc.nextLine());
+			estudiantes.setTelefono(sc.nextLine());
 	}
 
 }
